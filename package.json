@@ -1,0 +1,27 @@
+{
+  "name": "api_gastos_mensais",
+  "version": "1.0.0",
+  "description": "API para o projeto gastos mensais",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "npx nodemon start",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jamess0160/api_gastos_mensais.git"
+  },
+  "author": "Tiago Ribeiro",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jamess0160/api_gastos_mensais/issues"
+  },
+  "homepage": "https://github.com/jamess0160/api_gastos_mensais#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.18.2",
+    "mysql": "^2.18.1",
+    "nodemon": "^2.0.20"
+  }
+}
