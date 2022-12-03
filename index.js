@@ -13,6 +13,10 @@ app.get('/teste', (req, res) => {
     })
 })
 
+app.get('/entradas', async (req, res)=>{
+    res.json(await banco.query("SELECT * FROM entradas"))
+})
+
 app.get('/gastos', async (req, res) => {
     let resultado = await banco.query("SELECT * FROM registro_gasto")
     if (resultado.error) {
