@@ -1,0 +1,871 @@
+
+C:\Users\tiago\Documents\cigos\api_gastos_mensais>node index.js 
+api funcionando, aberta na url http://localhost:3000/teste
+node:events:498
+      throw er; // Unhandled 'error' event
+      ^
+
+Error: read ECONNRESET
+    at TCP.onStreamRead (node:internal/stream_base_commons:217:20)
+Emitted 'error' event on Connection instance at:
+    at Connection._handleProtocolError (C:\Users\tiago\Documents\c贸digos\api_gastos_mensais\node_modules\mysql\lib\Connection.js:423:8)
+    at Protocol.emit (node:events:520:28)
+    at Protocol._delegateError (C:\Users\tiago\Documents\c贸digos\api_gastos_mensais\node_modules\mysql\lib\protocol\Protocol.js:398:10)
+    at Protocol.handleNetworkError (C:\Users\tiago\Documents\c贸digos\api_gastos_mensais\node_modules\mysql\lib\protocol\Protocol.js:371:10)
+    at Connection._handleNetworkError (C:\Users\tiago\Documents\c贸digos\api_gastos_mensais\node_modules\mysql\lib\Connection.js:418:18)
+    at Socket.emit (node:events:520:28)
+    at emitErrorNT (node:internal/streams/destroy:157:8)
+    at emitErrorCloseNT (node:internal/streams/destroy:122:3)
+    at processTicksAndRejections (node:internal/process/task_queues:83:21) {
+  errno: -4077,
+  code: 'ECONNRESET',
+  syscall: 'read',
+  fatal: true
+}
+
+C:\Users\tiago\Documents\cigos\api_gastos_mensais>node index.js 
+api funcionando, aberta na url http://localhost:3000/teste
+node:events:498
+      throw er; // Unhandled 'error' event
+      ^
+
+Error: connect ECONNREFUSED 127.0.0.1:3306
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1157:16)
+    --------------------
+    at Protocol._enqueue (C:\Users\tiago\Documents\c贸digos\api_gastos_mensais\node_modules\mysql\lib\protocol\Protocol.js:144:48)
+    at Protocol.handshake (C:\Users\tiago\Documents\c贸digos\api_gastos_mensais\node_modules\mysql\lib\protocol\Protocol.js:51:23)
+    at Connection.connect (C:\Users\tiago\Documents\c贸digos\api_gastos_mensais\node_modules\mysql\lib\Connection.js:116:18)
+    at file:///C:/Users/tiago/Documents/c%C3%B3digos/api_gastos_mensais/banco.js:9:12
+    at ModuleJob.run (node:internal/modules/esm/module_job:195:25)
+    at async Promise.all (index 0)
+    at async ESMLoader.import (node:internal/modules/esm/loader:337:24)
+    at async loadESM (node:internal/process/esm_loader:88:5)
+    at async handleMainPromise (node:internal/modules/run_main:61:12)
+Emitted 'error' event on Connection instance at:
+    at Connection._handleProtocolError (C:\Users\tiago\Documents\c贸digos\api_gastos_mensais\node_modules\mysql\lib\Connection.js:423:8)
+    at Protocol.emit (node:events:520:28)
+    at Protocol._delegateError (C:\Users\tiago\Documents\c贸digos\api_gastos_mensais\node_modules\mysql\lib\protocol\Protocol.js:398:10)
+    at Handshake.<anonymous> (C:\Users\tiago\Documents\c贸digos\api_gastos_mensais\node_modules\mysql\lib\protocol\Protocol.js:153:12)
+    at Handshake.emit (node:events:520:28)
+    at Handshake.Sequence.end (C:\Users\tiago\Documents\c贸digos\api_gastos_mensais\node_modules\mysql\lib\protocol\sequences\Sequence.js:78:12)
+    at Protocol.handleNetworkError (C:\Users\tiago\Documents\c贸digos\api_gastos_mensais\node_modules\mysql\lib\protocol\Protocol.js:369:14)
+    at Connection._handleNetworkError (C:\Users\tiago\Documents\c贸digos\api_gastos_mensais\node_modules\mysql\lib\Connection.js:418:18)
+    at Socket.emit (node:events:520:28)
+    at emitErrorNT (node:internal/streams/destroy:157:8) {
+  errno: -4078,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 3306,
+  fatal: true
+}
+
+C:\Users\tiago\Documents\cigos\api_gastos_mensais>node index.js 
+api funcionando, aberta na url http://localhost:3000/teste
+node:events:498
+      throw er; // Unhandled 'error' event
+      ^
+
+Error: connect ECONNREFUSED 127.0.0.1:3306
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1157:16)
+    --------------------
+    at Protocol._enqueue (C:\Users\tiago\Documents\c贸digos\api_gastos_mensais\node_modules\mysql\lib\protocol\Protocol.js:144:48)
+    at Protocol.handshake (C:\Users\tiago\Documents\c贸digos\api_gastos_mensais\node_modules\mysql\lib\protocol\Protocol.js:51:23)
+    at Connection.connect (C:\Users\tiago\Documents\c贸digos\api_gastos_mensais\node_modules\mysql\lib\Connection.js:116:18)
+    at file:///C:/Users/tiago/Documents/c%C3%B3digos/api_gastos_mensais/banco.js:9:12
+    at ModuleJob.run (node:internal/modules/esm/module_job:195:25)
+    at async Promise.all (index 0)
+    at async ESMLoader.import (node:internal/modules/esm/loader:337:24)
+    at async loadESM (node:internal/process/esm_loader:88:5)
+    at async handleMainPromise (node:internal/modules/run_main:61:12)
+Emitted 'error' event on Connection instance at:
+    at Connection._handleProtocolError (C:\Users\tiago\Documents\c贸digos\api_gastos_mensais\node_modules\mysql\lib\Connection.js:423:8)
+    at Protocol.emit (node:events:520:28)
+    at Protocol._delegateError (C:\Users\tiago\Documents\c贸digos\api_gastos_mensais\node_modules\mysql\lib\protocol\Protocol.js:398:10)
+    at Handshake.<anonymous> (C:\Users\tiago\Documents\c贸digos\api_gastos_mensais\node_modules\mysql\lib\protocol\Protocol.js:153:12)
+    at Handshake.emit (node:events:520:28)
+    at Handshake.Sequence.end (C:\Users\tiago\Documents\c贸digos\api_gastos_mensais\node_modules\mysql\lib\protocol\sequences\Sequence.js:78:12)
+    at Protocol.handleNetworkError (C:\Users\tiago\Documents\c贸digos\api_gastos_mensais\node_modules\mysql\lib\protocol\Protocol.js:369:14)
+    at Connection._handleNetworkError (C:\Users\tiago\Documents\c贸digos\api_gastos_mensais\node_modules\mysql\lib\Connection.js:418:18)
+    at Socket.emit (node:events:520:28)
+    at emitErrorNT (node:internal/streams/destroy:157:8) {
+  errno: -4078,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 3306,
+  fatal: true
+}
+
+C:\Users\tiago\Documents\cigos\api_gastos_mensais>node index.js 
+api funcionando, aberta na url http://localhost:3000/teste
+node:events:498
+      throw er; // Unhandled 'error' event
+      ^
+
+Error: connect ECONNREFUSED 127.0.0.1:3306
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1157:16)
+    --------------------
+    at Protocol._enqueue (C:\Users\tiago\Documents\c贸digos\api_gastos_mensais\node_modules\mysql\lib\protocol\Protocol.js:144:48)
+    at Protocol.handshake (C:\Users\tiago\Documents\c贸digos\api_gastos_mensais\node_modules\mysql\lib\protocol\Protocol.js:51:23)
+    at Connection.connect (C:\Users\tiago\Documents\c贸digos\api_gastos_mensais\node_modules\mysql\lib\Connection.js:116:18)
+    at file:///C:/Users/tiago/Documents/c%C3%B3digos/api_gastos_mensais/banco.js:9:12
+    at ModuleJob.run (node:internal/modules/esm/module_job:195:25)
+    at async Promise.all (index 0)
+    at async ESMLoader.import (node:internal/modules/esm/loader:337:24)
+    at async loadESM (node:internal/process/esm_loader:88:5)
+    at async handleMainPromise (node:internal/modules/run_main:61:12)
+Emitted 'error' event on Connection instance at:
+    at Connection._handleProtocolError (C:\Users\tiago\Documents\c贸digos\api_gastos_mensais\node_modules\mysql\lib\Connection.js:423:8)
+    at Protocol.emit (node:events:520:28)
+    at Protocol._delegateError (C:\Users\tiago\Documents\c贸digos\api_gastos_mensais\node_modules\mysql\lib\protocol\Protocol.js:398:10)
+    at Handshake.<anonymous> (C:\Users\tiago\Documents\c贸digos\api_gastos_mensais\node_modules\mysql\lib\protocol\Protocol.js:153:12)
+    at Handshake.emit (node:events:520:28)
+    at Handshake.Sequence.end (C:\Users\tiago\Documents\c贸digos\api_gastos_mensais\node_modules\mysql\lib\protocol\sequences\Sequence.js:78:12)
+    at Protocol.handleNetworkError (C:\Users\tiago\Documents\c贸digos\api_gastos_mensais\node_modules\mysql\lib\protocol\Protocol.js:369:14)
+    at Connection._handleNetworkError (C:\Users\tiago\Documents\c贸digos\api_gastos_mensais\node_modules\mysql\lib\Connection.js:418:18)
+    at Socket.emit (node:events:520:28)
+    at emitErrorNT (node:internal/streams/destroy:157:8) {
+  errno: -4078,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 3306,
+  fatal: true
+}
+
+C:\Users\tiago\Documents\cigos\api_gastos_mensais>node index.js 
+api funcionando, aberta na url http://localhost:3000/teste
+node:events:498
+      throw er; // Unhandled 'error' event
+      ^
+
+Error: connect ECONNREFUSED 127.0.0.1:3306
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1157:16)
+    --------------------
+    at Protocol._enqueue (C:\Users\tiago\Documents\c贸digos\api_gastos_mensais\node_modules\mysql\lib\protocol\Protocol.js:144:48)
+    at Protocol.handshake (C:\Users\tiago\Documents\c贸digos\api_gastos_mensais\node_modules\mysql\lib\protocol\Protocol.js:51:23)
+    at Connection.connect (C:\Users\tiago\Documents\c贸digos\api_gastos_mensais\node_modules\mysql\lib\Connection.js:116:18)
+    at file:///C:/Users/tiago/Documents/c%C3%B3digos/api_gastos_mensais/banco.js:9:12
+    at ModuleJob.run (node:internal/modules/esm/module_job:195:25)
+    at async Promise.all (index 0)
+    at async ESMLoader.import (node:internal/modules/esm/loader:337:24)
+    at async loadESM (node:internal/process/esm_loader:88:5)
+    at async handleMainPromise (node:internal/modules/run_main:61:12)
+Emitted 'error' event on Connection instance at:
+    at Connection._handleProtocolError (C:\Users\tiago\Documents\c贸digos\api_gastos_mensais\node_modules\mysql\lib\Connection.js:423:8)
+    at Protocol.emit (node:events:520:28)
+    at Protocol._delegateError (C:\Users\tiago\Documents\c贸digos\api_gastos_mensais\node_modules\mysql\lib\protocol\Protocol.js:398:10)
+    at Handshake.<anonymous> (C:\Users\tiago\Documents\c贸digos\api_gastos_mensais\node_modules\mysql\lib\protocol\Protocol.js:153:12)
+    at Handshake.emit (node:events:520:28)
+    at Handshake.Sequence.end (C:\Users\tiago\Documents\c贸digos\api_gastos_mensais\node_modules\mysql\lib\protocol\sequences\Sequence.js:78:12)
+    at Protocol.handleNetworkError (C:\Users\tiago\Documents\c贸digos\api_gastos_mensais\node_modules\mysql\lib\protocol\Protocol.js:369:14)
+    at Connection._handleNetworkError (C:\Users\tiago\Documents\c贸digos\api_gastos_mensais\node_modules\mysql\lib\Connection.js:418:18)
+    at Socket.emit (node:events:520:28)
+    at emitErrorNT (node:internal/streams/destroy:157:8) {
+  errno: -4078,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 3306,
+  fatal: true
+}
+
+C:\Users\tiago\Documents\cigos\api_gastos_mensais>node index.js 
+api funcionando, aberta na url http://localhost:3000/teste
+node:events:498
+      throw er; // Unhandled 'error' event
+      ^
+
+Error: connect ECONNREFUSED 127.0.0.1:3306
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1157:16)
+    --------------------
+    at Protocol._enqueue (C:\Users\tiago\Documents\c贸digos\api_gastos_mensais\node_modules\mysql\lib\protocol\Protocol.js:144:48)
+    at Protocol.handshake (C:\Users\tiago\Documents\c贸digos\api_gastos_mensais\node_modules\mysql\lib\protocol\Protocol.js:51:23)
+    at Connection.connect (C:\Users\tiago\Documents\c贸digos\api_gastos_mensais\node_modules\mysql\lib\Connection.js:116:18)
+    at file:///C:/Users/tiago/Documents/c%C3%B3digos/api_gastos_mensais/banco.js:9:12
+    at ModuleJob.run (node:internal/modules/esm/module_job:195:25)
+    at async Promise.all (index 0)
+    at async ESMLoader.import (node:internal/modules/esm/loader:337:24)
+    at async loadESM (node:internal/process/esm_loader:88:5)
+    at async handleMainPromise (node:internal/modules/run_main:61:12)
+Emitted 'error' event on Connection instance at:
+    at Connection._handleProtocolError (C:\Users\tiago\Documents\c贸digos\api_gastos_mensais\node_modules\mysql\lib\Connection.js:423:8)
+    at Protocol.emit (node:events:520:28)
+    at Protocol._delegateError (C:\Users\tiago\Documents\c贸digos\api_gastos_mensais\node_modules\mysql\lib\protocol\Protocol.js:398:10)
+    at Handshake.<anonymous> (C:\Users\tiago\Documents\c贸digos\api_gastos_mensais\node_modules\mysql\lib\protocol\Protocol.js:153:12)
+    at Handshake.emit (node:events:520:28)
+    at Handshake.Sequence.end (C:\Users\tiago\Documents\c贸digos\api_gastos_mensais\node_modules\mysql\lib\protocol\sequences\Sequence.js:78:12)
+    at Protocol.handleNetworkError (C:\Users\tiago\Documents\c贸digos\api_gastos_mensais\node_modules\mysql\lib\protocol\Protocol.js:369:14)
+    at Connection._handleNetworkError (C:\Users\tiago\Documents\c贸digos\api_gastos_mensais\node_modules\mysql\lib\Connection.js:418:18)
+    at Socket.emit (node:events:520:28)
+    at emitErrorNT (node:internal/streams/destroy:157:8) {
+  errno: -4078,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 3306,
+  fatal: true
+}
+
+C:\Users\tiago\Documents\cigos\api_gastos_mensais>node index.js 
+api funcionando, aberta na url http://localhost:3000/teste
+node:events:498
+      throw er; // Unhandled 'error' event
+      ^
+
+Error: connect ECONNREFUSED 127.0.0.1:3306
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1157:16)
+    --------------------
+    at Protocol._enqueue (C:\Users\tiago\Documents\c贸digos\api_gastos_mensais\node_modules\mysql\lib\protocol\Protocol.js:144:48)
+    at Protocol.handshake (C:\Users\tiago\Documents\c贸digos\api_gastos_mensais\node_modules\mysql\lib\protocol\Protocol.js:51:23)
+    at Connection.connect (C:\Users\tiago\Documents\c贸digos\api_gastos_mensais\node_modules\mysql\lib\Connection.js:116:18)
+    at file:///C:/Users/tiago/Documents/c%C3%B3digos/api_gastos_mensais/banco.js:9:12
+    at ModuleJob.run (node:internal/modules/esm/module_job:195:25)
+    at async Promise.all (index 0)
+    at async ESMLoader.import (node:internal/modules/esm/loader:337:24)
+    at async loadESM (node:internal/process/esm_loader:88:5)
+    at async handleMainPromise (node:internal/modules/run_main:61:12)
+Emitted 'error' event on Connection instance at:
+    at Connection._handleProtocolError (C:\Users\tiago\Documents\c贸digos\api_gastos_mensais\node_modules\mysql\lib\Connection.js:423:8)
+    at Protocol.emit (node:events:520:28)
+    at Protocol._delegateError (C:\Users\tiago\Documents\c贸digos\api_gastos_mensais\node_modules\mysql\lib\protocol\Protocol.js:398:10)
+    at Handshake.<anonymous> (C:\Users\tiago\Documents\c贸digos\api_gastos_mensais\node_modules\mysql\lib\protocol\Protocol.js:153:12)
+    at Handshake.emit (node:events:520:28)
+    at Handshake.Sequence.end (C:\Users\tiago\Documents\c贸digos\api_gastos_mensais\node_modules\mysql\lib\protocol\sequences\Sequence.js:78:12)
+    at Protocol.handleNetworkError (C:\Users\tiago\Documents\c贸digos\api_gastos_mensais\node_modules\mysql\lib\protocol\Protocol.js:369:14)
+    at Connection._handleNetworkError (C:\Users\tiago\Documents\c贸digos\api_gastos_mensais\node_modules\mysql\lib\Connection.js:418:18)
+    at Socket.emit (node:events:520:28)
+    at emitErrorNT (node:internal/streams/destroy:157:8) {
+  errno: -4078,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 3306,
+  fatal: true
+}
+
+C:\Users\tiago\Documents\cigos\api_gastos_mensais>node index.js 
+api funcionando, aberta na url http://localhost:3000/teste
+node:events:498
+      throw er; // Unhandled 'error' event
+      ^
+
+Error: connect ECONNREFUSED 127.0.0.1:3306
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1157:16)
+    --------------------
+    at Protocol._enqueue (C:\Users\tiago\Documents\c贸digos\api_gastos_mensais\node_modules\mysql\lib\protocol\Protocol.js:144:48)
+    at Protocol.handshake (C:\Users\tiago\Documents\c贸digos\api_gastos_mensais\node_modules\mysql\lib\protocol\Protocol.js:51:23)
+    at Connection.connect (C:\Users\tiago\Documents\c贸digos\api_gastos_mensais\node_modules\mysql\lib\Connection.js:116:18)
+    at file:///C:/Users/tiago/Documents/c%C3%B3digos/api_gastos_mensais/banco.js:9:12
+    at ModuleJob.run (node:internal/modules/esm/module_job:195:25)
+    at async Promise.all (index 0)
+    at async ESMLoader.import (node:internal/modules/esm/loader:337:24)
+    at async loadESM (node:internal/process/esm_loader:88:5)
+    at async handleMainPromise (node:internal/modules/run_main:61:12)
+Emitted 'error' event on Connection instance at:
+    at Connection._handleProtocolError (C:\Users\tiago\Documents\c贸digos\api_gastos_mensais\node_modules\mysql\lib\Connection.js:423:8)
+    at Protocol.emit (node:events:520:28)
+    at Protocol._delegateError (C:\Users\tiago\Documents\c贸digos\api_gastos_mensais\node_modules\mysql\lib\protocol\Protocol.js:398:10)
+    at Handshake.<anonymous> (C:\Users\tiago\Documents\c贸digos\api_gastos_mensais\node_modules\mysql\lib\protocol\Protocol.js:153:12)
+    at Handshake.emit (node:events:520:28)
+    at Handshake.Sequence.end (C:\Users\tiago\Documents\c贸digos\api_gastos_mensais\node_modules\mysql\lib\protocol\sequences\Sequence.js:78:12)
+    at Protocol.handleNetworkError (C:\Users\tiago\Documents\c贸digos\api_gastos_mensais\node_modules\mysql\lib\protocol\Protocol.js:369:14)
+    at Connection._handleNetworkError (C:\Users\tiago\Documents\c贸digos\api_gastos_mensais\node_modules\mysql\lib\Connection.js:418:18)
+    at Socket.emit (node:events:520:28)
+    at emitErrorNT (node:internal/streams/destroy:157:8) {
+  errno: -4078,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 3306,
+  fatal: true
+}
+
+C:\Users\tiago\Documents\cigos\api_gastos_mensais>node index.js 
+api funcionando, aberta na url http://localhost:3000/teste
+node:events:498
+      throw er; // Unhandled 'error' event
+      ^
+
+Error: connect ECONNREFUSED 127.0.0.1:3306
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1157:16)
+    --------------------
+    at Protocol._enqueue (C:\Users\tiago\Documents\c贸digos\api_gastos_mensais\node_modules\mysql\lib\protocol\Protocol.js:144:48)
+    at Protocol.handshake (C:\Users\tiago\Documents\c贸digos\api_gastos_mensais\node_modules\mysql\lib\protocol\Protocol.js:51:23)
+    at Connection.connect (C:\Users\tiago\Documents\c贸digos\api_gastos_mensais\node_modules\mysql\lib\Connection.js:116:18)
+    at file:///C:/Users/tiago/Documents/c%C3%B3digos/api_gastos_mensais/banco.js:9:12
+    at ModuleJob.run (node:internal/modules/esm/module_job:195:25)
+    at async Promise.all (index 0)
+    at async ESMLoader.import (node:internal/modules/esm/loader:337:24)
+    at async loadESM (node:internal/process/esm_loader:88:5)
+    at async handleMainPromise (node:internal/modules/run_main:61:12)
+Emitted 'error' event on Connection instance at:
+    at Connection._handleProtocolError (C:\Users\tiago\Documents\c贸digos\api_gastos_mensais\node_modules\mysql\lib\Connection.js:423:8)
+    at Protocol.emit (node:events:520:28)
+    at Protocol._delegateError (C:\Users\tiago\Documents\c贸digos\api_gastos_mensais\node_modules\mysql\lib\protocol\Protocol.js:398:10)
+    at Handshake.<anonymous> (C:\Users\tiago\Documents\c贸digos\api_gastos_mensais\node_modules\mysql\lib\protocol\Protocol.js:153:12)
+    at Handshake.emit (node:events:520:28)
+    at Handshake.Sequence.end (C:\Users\tiago\Documents\c贸digos\api_gastos_mensais\node_modules\mysql\lib\protocol\sequences\Sequence.js:78:12)
+    at Protocol.handleNetworkError (C:\Users\tiago\Documents\c贸digos\api_gastos_mensais\node_modules\mysql\lib\protocol\Protocol.js:369:14)
+    at Connection._handleNetworkError (C:\Users\tiago\Documents\c贸digos\api_gastos_mensais\node_modules\mysql\lib\Connection.js:418:18)
+    at Socket.emit (node:events:520:28)
+    at emitErrorNT (node:internal/streams/destroy:157:8) {
+  errno: -4078,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 3306,
+  fatal: true
+}
+
+C:\Users\tiago\Documents\cigos\api_gastos_mensais>node index.js 
+api funcionando, aberta na url http://localhost:3000/teste
+node:events:498
+      throw er; // Unhandled 'error' event
+      ^
+
+Error: connect ECONNREFUSED 127.0.0.1:3306
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1157:16)
+    --------------------
+    at Protocol._enqueue (C:\Users\tiago\Documents\c贸digos\api_gastos_mensais\node_modules\mysql\lib\protocol\Protocol.js:144:48)
+    at Protocol.handshake (C:\Users\tiago\Documents\c贸digos\api_gastos_mensais\node_modules\mysql\lib\protocol\Protocol.js:51:23)
+    at Connection.connect (C:\Users\tiago\Documents\c贸digos\api_gastos_mensais\node_modules\mysql\lib\Connection.js:116:18)
+    at file:///C:/Users/tiago/Documents/c%C3%B3digos/api_gastos_mensais/banco.js:9:12
+    at ModuleJob.run (node:internal/modules/esm/module_job:195:25)
+    at async Promise.all (index 0)
+    at async ESMLoader.import (node:internal/modules/esm/loader:337:24)
+    at async loadESM (node:internal/process/esm_loader:88:5)
+    at async handleMainPromise (node:internal/modules/run_main:61:12)
+Emitted 'error' event on Connection instance at:
+    at Connection._handleProtocolError (C:\Users\tiago\Documents\c贸digos\api_gastos_mensais\node_modules\mysql\lib\Connection.js:423:8)
+    at Protocol.emit (node:events:520:28)
+    at Protocol._delegateError (C:\Users\tiago\Documents\c贸digos\api_gastos_mensais\node_modules\mysql\lib\protocol\Protocol.js:398:10)
+    at Handshake.<anonymous> (C:\Users\tiago\Documents\c贸digos\api_gastos_mensais\node_modules\mysql\lib\protocol\Protocol.js:153:12)
+    at Handshake.emit (node:events:520:28)
+    at Handshake.Sequence.end (C:\Users\tiago\Documents\c贸digos\api_gastos_mensais\node_modules\mysql\lib\protocol\sequences\Sequence.js:78:12)
+    at Protocol.handleNetworkError (C:\Users\tiago\Documents\c贸digos\api_gastos_mensais\node_modules\mysql\lib\protocol\Protocol.js:369:14)
+    at Connection._handleNetworkError (C:\Users\tiago\Documents\c贸digos\api_gastos_mensais\node_modules\mysql\lib\Connection.js:418:18)
+    at Socket.emit (node:events:520:28)
+    at emitErrorNT (node:internal/streams/destroy:157:8) {
+  errno: -4078,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 3306,
+  fatal: true
+}
+
+C:\Users\tiago\Documents\cigos\api_gastos_mensais>node index.js 
+api funcionando, aberta na url http://localhost:3000/teste
+node:events:498
+      throw er; // Unhandled 'error' event
+      ^
+
+Error: connect ECONNREFUSED 127.0.0.1:3306
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1157:16)
+    --------------------
+    at Protocol._enqueue (C:\Users\tiago\Documents\c贸digos\api_gastos_mensais\node_modules\mysql\lib\protocol\Protocol.js:144:48)
+    at Protocol.handshake (C:\Users\tiago\Documents\c贸digos\api_gastos_mensais\node_modules\mysql\lib\protocol\Protocol.js:51:23)
+    at Connection.connect (C:\Users\tiago\Documents\c贸digos\api_gastos_mensais\node_modules\mysql\lib\Connection.js:116:18)
+    at file:///C:/Users/tiago/Documents/c%C3%B3digos/api_gastos_mensais/banco.js:9:12
+    at ModuleJob.run (node:internal/modules/esm/module_job:195:25)
+    at async Promise.all (index 0)
+    at async ESMLoader.import (node:internal/modules/esm/loader:337:24)
+    at async loadESM (node:internal/process/esm_loader:88:5)
+    at async handleMainPromise (node:internal/modules/run_main:61:12)
+Emitted 'error' event on Connection instance at:
+    at Connection._handleProtocolError (C:\Users\tiago\Documents\c贸digos\api_gastos_mensais\node_modules\mysql\lib\Connection.js:423:8)
+    at Protocol.emit (node:events:520:28)
+    at Protocol._delegateError (C:\Users\tiago\Documents\c贸digos\api_gastos_mensais\node_modules\mysql\lib\protocol\Protocol.js:398:10)
+    at Handshake.<anonymous> (C:\Users\tiago\Documents\c贸digos\api_gastos_mensais\node_modules\mysql\lib\protocol\Protocol.js:153:12)
+    at Handshake.emit (node:events:520:28)
+    at Handshake.Sequence.end (C:\Users\tiago\Documents\c贸digos\api_gastos_mensais\node_modules\mysql\lib\protocol\sequences\Sequence.js:78:12)
+    at Protocol.handleNetworkError (C:\Users\tiago\Documents\c贸digos\api_gastos_mensais\node_modules\mysql\lib\protocol\Protocol.js:369:14)
+    at Connection._handleNetworkError (C:\Users\tiago\Documents\c贸digos\api_gastos_mensais\node_modules\mysql\lib\Connection.js:418:18)
+    at Socket.emit (node:events:520:28)
+    at emitErrorNT (node:internal/streams/destroy:157:8) {
+  errno: -4078,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 3306,
+  fatal: true
+}
+
+C:\Users\tiago\Documents\cigos\api_gastos_mensais>node index.js 
+api funcionando, aberta na url http://localhost:3000/teste
+node:events:498
+      throw er; // Unhandled 'error' event
+      ^
+
+Error: read ECONNRESET
+    at TCP.onStreamRead (node:internal/stream_base_commons:217:20)
+Emitted 'error' event on Connection instance at:
+    at Connection._handleProtocolError (C:\Users\tiago\Documents\c贸digos\api_gastos_mensais\node_modules\mysql\lib\Connection.js:423:8)
+    at Protocol.emit (node:events:520:28)
+    at Protocol._delegateError (C:\Users\tiago\Documents\c贸digos\api_gastos_mensais\node_modules\mysql\lib\protocol\Protocol.js:398:10)
+    at Protocol.handleNetworkError (C:\Users\tiago\Documents\c贸digos\api_gastos_mensais\node_modules\mysql\lib\protocol\Protocol.js:371:10)
+    at Connection._handleNetworkError (C:\Users\tiago\Documents\c贸digos\api_gastos_mensais\node_modules\mysql\lib\Connection.js:418:18)
+    at Socket.emit (node:events:520:28)
+    at emitErrorNT (node:internal/streams/destroy:157:8)
+    at emitErrorCloseNT (node:internal/streams/destroy:122:3)
+    at processTicksAndRejections (node:internal/process/task_queues:83:21) {
+  errno: -4077,
+  code: 'ECONNRESET',
+  syscall: 'read',
+  fatal: true
+}
+
+C:\Users\tiago\Documents\cigos\api_gastos_mensais>node index.js 
+api funcionando, aberta na url http://localhost:3000/teste
+node:events:498
+      throw er; // Unhandled 'error' event
+      ^
+
+Error: connect ECONNREFUSED 127.0.0.1:3306
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1157:16)
+    --------------------
+    at Protocol._enqueue (C:\Users\tiago\Documents\c贸digos\api_gastos_mensais\node_modules\mysql\lib\protocol\Protocol.js:144:48)
+    at Protocol.handshake (C:\Users\tiago\Documents\c贸digos\api_gastos_mensais\node_modules\mysql\lib\protocol\Protocol.js:51:23)
+    at Connection.connect (C:\Users\tiago\Documents\c贸digos\api_gastos_mensais\node_modules\mysql\lib\Connection.js:116:18)
+    at file:///C:/Users/tiago/Documents/c%C3%B3digos/api_gastos_mensais/banco.js:9:12
+    at ModuleJob.run (node:internal/modules/esm/module_job:195:25)
+    at async Promise.all (index 0)
+    at async ESMLoader.import (node:internal/modules/esm/loader:337:24)
+    at async loadESM (node:internal/process/esm_loader:88:5)
+    at async handleMainPromise (node:internal/modules/run_main:61:12)
+Emitted 'error' event on Connection instance at:
+    at Connection._handleProtocolError (C:\Users\tiago\Documents\c贸digos\api_gastos_mensais\node_modules\mysql\lib\Connection.js:423:8)
+    at Protocol.emit (node:events:520:28)
+    at Protocol._delegateError (C:\Users\tiago\Documents\c贸digos\api_gastos_mensais\node_modules\mysql\lib\protocol\Protocol.js:398:10)
+    at Handshake.<anonymous> (C:\Users\tiago\Documents\c贸digos\api_gastos_mensais\node_modules\mysql\lib\protocol\Protocol.js:153:12)
+    at Handshake.emit (node:events:520:28)
+    at Handshake.Sequence.end (C:\Users\tiago\Documents\c贸digos\api_gastos_mensais\node_modules\mysql\lib\protocol\sequences\Sequence.js:78:12)
+    at Protocol.handleNetworkError (C:\Users\tiago\Documents\c贸digos\api_gastos_mensais\node_modules\mysql\lib\protocol\Protocol.js:369:14)
+    at Connection._handleNetworkError (C:\Users\tiago\Documents\c贸digos\api_gastos_mensais\node_modules\mysql\lib\Connection.js:418:18)
+    at Socket.emit (node:events:520:28)
+    at emitErrorNT (node:internal/streams/destroy:157:8) {
+  errno: -4078,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 3306,
+  fatal: true
+}
+
+C:\Users\tiago\Documents\cigos\api_gastos_mensais>node index.js 
+api funcionando, aberta na url http://localhost:3000/teste
+node:events:498
+      throw er; // Unhandled 'error' event
+      ^
+
+Error: connect ECONNREFUSED 127.0.0.1:3306
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1157:16)
+    --------------------
+    at Protocol._enqueue (C:\Users\tiago\Documents\c贸digos\api_gastos_mensais\node_modules\mysql\lib\protocol\Protocol.js:144:48)
+    at Protocol.handshake (C:\Users\tiago\Documents\c贸digos\api_gastos_mensais\node_modules\mysql\lib\protocol\Protocol.js:51:23)
+    at Connection.connect (C:\Users\tiago\Documents\c贸digos\api_gastos_mensais\node_modules\mysql\lib\Connection.js:116:18)
+    at file:///C:/Users/tiago/Documents/c%C3%B3digos/api_gastos_mensais/banco.js:9:12
+    at ModuleJob.run (node:internal/modules/esm/module_job:195:25)
+    at async Promise.all (index 0)
+    at async ESMLoader.import (node:internal/modules/esm/loader:337:24)
+    at async loadESM (node:internal/process/esm_loader:88:5)
+    at async handleMainPromise (node:internal/modules/run_main:61:12)
+Emitted 'error' event on Connection instance at:
+    at Connection._handleProtocolError (C:\Users\tiago\Documents\c贸digos\api_gastos_mensais\node_modules\mysql\lib\Connection.js:423:8)
+    at Protocol.emit (node:events:520:28)
+    at Protocol._delegateError (C:\Users\tiago\Documents\c贸digos\api_gastos_mensais\node_modules\mysql\lib\protocol\Protocol.js:398:10)
+    at Handshake.<anonymous> (C:\Users\tiago\Documents\c贸digos\api_gastos_mensais\node_modules\mysql\lib\protocol\Protocol.js:153:12)
+    at Handshake.emit (node:events:520:28)
+    at Handshake.Sequence.end (C:\Users\tiago\Documents\c贸digos\api_gastos_mensais\node_modules\mysql\lib\protocol\sequences\Sequence.js:78:12)
+    at Protocol.handleNetworkError (C:\Users\tiago\Documents\c贸digos\api_gastos_mensais\node_modules\mysql\lib\protocol\Protocol.js:369:14)
+    at Connection._handleNetworkError (C:\Users\tiago\Documents\c贸digos\api_gastos_mensais\node_modules\mysql\lib\Connection.js:418:18)
+    at Socket.emit (node:events:520:28)
+    at emitErrorNT (node:internal/streams/destroy:157:8) {
+  errno: -4078,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 3306,
+  fatal: true
+}
+
+C:\Users\tiago\Documents\cigos\api_gastos_mensais>node index.js 
+api funcionando, aberta na url http://localhost:3000/teste
+node:events:498
+      throw er; // Unhandled 'error' event
+      ^
+
+Error: connect ECONNREFUSED 127.0.0.1:3306
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1157:16)
+    --------------------
+    at Protocol._enqueue (C:\Users\tiago\Documents\c贸digos\api_gastos_mensais\node_modules\mysql\lib\protocol\Protocol.js:144:48)
+    at Protocol.handshake (C:\Users\tiago\Documents\c贸digos\api_gastos_mensais\node_modules\mysql\lib\protocol\Protocol.js:51:23)
+    at Connection.connect (C:\Users\tiago\Documents\c贸digos\api_gastos_mensais\node_modules\mysql\lib\Connection.js:116:18)
+    at file:///C:/Users/tiago/Documents/c%C3%B3digos/api_gastos_mensais/banco.js:9:12
+    at ModuleJob.run (node:internal/modules/esm/module_job:195:25)
+    at async Promise.all (index 0)
+    at async ESMLoader.import (node:internal/modules/esm/loader:337:24)
+    at async loadESM (node:internal/process/esm_loader:88:5)
+    at async handleMainPromise (node:internal/modules/run_main:61:12)
+Emitted 'error' event on Connection instance at:
+    at Connection._handleProtocolError (C:\Users\tiago\Documents\c贸digos\api_gastos_mensais\node_modules\mysql\lib\Connection.js:423:8)
+    at Protocol.emit (node:events:520:28)
+    at Protocol._delegateError (C:\Users\tiago\Documents\c贸digos\api_gastos_mensais\node_modules\mysql\lib\protocol\Protocol.js:398:10)
+    at Handshake.<anonymous> (C:\Users\tiago\Documents\c贸digos\api_gastos_mensais\node_modules\mysql\lib\protocol\Protocol.js:153:12)
+    at Handshake.emit (node:events:520:28)
+    at Handshake.Sequence.end (C:\Users\tiago\Documents\c贸digos\api_gastos_mensais\node_modules\mysql\lib\protocol\sequences\Sequence.js:78:12)
+    at Protocol.handleNetworkError (C:\Users\tiago\Documents\c贸digos\api_gastos_mensais\node_modules\mysql\lib\protocol\Protocol.js:369:14)
+    at Connection._handleNetworkError (C:\Users\tiago\Documents\c贸digos\api_gastos_mensais\node_modules\mysql\lib\Connection.js:418:18)
+    at Socket.emit (node:events:520:28)
+    at emitErrorNT (node:internal/streams/destroy:157:8) {
+  errno: -4078,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 3306,
+  fatal: true
+}
+
+C:\Users\tiago\Documents\cigos\api_gastos_mensais>node index.js 
+api funcionando, aberta na url http://localhost:3000/teste
+node:events:498
+      throw er; // Unhandled 'error' event
+      ^
+
+Error: connect ECONNREFUSED 127.0.0.1:3306
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1157:16)
+    --------------------
+    at Protocol._enqueue (C:\Users\tiago\Documents\c贸digos\api_gastos_mensais\node_modules\mysql\lib\protocol\Protocol.js:144:48)
+    at Protocol.handshake (C:\Users\tiago\Documents\c贸digos\api_gastos_mensais\node_modules\mysql\lib\protocol\Protocol.js:51:23)
+    at Connection.connect (C:\Users\tiago\Documents\c贸digos\api_gastos_mensais\node_modules\mysql\lib\Connection.js:116:18)
+    at file:///C:/Users/tiago/Documents/c%C3%B3digos/api_gastos_mensais/banco.js:9:12
+    at ModuleJob.run (node:internal/modules/esm/module_job:195:25)
+    at async Promise.all (index 0)
+    at async ESMLoader.import (node:internal/modules/esm/loader:337:24)
+    at async loadESM (node:internal/process/esm_loader:88:5)
+    at async handleMainPromise (node:internal/modules/run_main:61:12)
+Emitted 'error' event on Connection instance at:
+    at Connection._handleProtocolError (C:\Users\tiago\Documents\c贸digos\api_gastos_mensais\node_modules\mysql\lib\Connection.js:423:8)
+    at Protocol.emit (node:events:520:28)
+    at Protocol._delegateError (C:\Users\tiago\Documents\c贸digos\api_gastos_mensais\node_modules\mysql\lib\protocol\Protocol.js:398:10)
+    at Handshake.<anonymous> (C:\Users\tiago\Documents\c贸digos\api_gastos_mensais\node_modules\mysql\lib\protocol\Protocol.js:153:12)
+    at Handshake.emit (node:events:520:28)
+    at Handshake.Sequence.end (C:\Users\tiago\Documents\c贸digos\api_gastos_mensais\node_modules\mysql\lib\protocol\sequences\Sequence.js:78:12)
+    at Protocol.handleNetworkError (C:\Users\tiago\Documents\c贸digos\api_gastos_mensais\node_modules\mysql\lib\protocol\Protocol.js:369:14)
+    at Connection._handleNetworkError (C:\Users\tiago\Documents\c贸digos\api_gastos_mensais\node_modules\mysql\lib\Connection.js:418:18)
+    at Socket.emit (node:events:520:28)
+    at emitErrorNT (node:internal/streams/destroy:157:8) {
+  errno: -4078,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 3306,
+  fatal: true
+}
+
+C:\Users\tiago\Documents\cigos\api_gastos_mensais>node index.js 
+api funcionando, aberta na url http://localhost:3000/teste
+node:events:498
+      throw er; // Unhandled 'error' event
+      ^
+
+Error: connect ECONNREFUSED 127.0.0.1:3306
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1157:16)
+    --------------------
+    at Protocol._enqueue (C:\Users\tiago\Documents\c贸digos\api_gastos_mensais\node_modules\mysql\lib\protocol\Protocol.js:144:48)
+    at Protocol.handshake (C:\Users\tiago\Documents\c贸digos\api_gastos_mensais\node_modules\mysql\lib\protocol\Protocol.js:51:23)
+    at Connection.connect (C:\Users\tiago\Documents\c贸digos\api_gastos_mensais\node_modules\mysql\lib\Connection.js:116:18)
+    at file:///C:/Users/tiago/Documents/c%C3%B3digos/api_gastos_mensais/banco.js:9:12
+    at ModuleJob.run (node:internal/modules/esm/module_job:195:25)
+    at async Promise.all (index 0)
+    at async ESMLoader.import (node:internal/modules/esm/loader:337:24)
+    at async loadESM (node:internal/process/esm_loader:88:5)
+    at async handleMainPromise (node:internal/modules/run_main:61:12)
+Emitted 'error' event on Connection instance at:
+    at Connection._handleProtocolError (C:\Users\tiago\Documents\c贸digos\api_gastos_mensais\node_modules\mysql\lib\Connection.js:423:8)
+    at Protocol.emit (node:events:520:28)
+    at Protocol._delegateError (C:\Users\tiago\Documents\c贸digos\api_gastos_mensais\node_modules\mysql\lib\protocol\Protocol.js:398:10)
+    at Handshake.<anonymous> (C:\Users\tiago\Documents\c贸digos\api_gastos_mensais\node_modules\mysql\lib\protocol\Protocol.js:153:12)
+    at Handshake.emit (node:events:520:28)
+    at Handshake.Sequence.end (C:\Users\tiago\Documents\c贸digos\api_gastos_mensais\node_modules\mysql\lib\protocol\sequences\Sequence.js:78:12)
+    at Protocol.handleNetworkError (C:\Users\tiago\Documents\c贸digos\api_gastos_mensais\node_modules\mysql\lib\protocol\Protocol.js:369:14)
+    at Connection._handleNetworkError (C:\Users\tiago\Documents\c贸digos\api_gastos_mensais\node_modules\mysql\lib\Connection.js:418:18)
+    at Socket.emit (node:events:520:28)
+    at emitErrorNT (node:internal/streams/destroy:157:8) {
+  errno: -4078,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 3306,
+  fatal: true
+}
+
+C:\Users\tiago\Documents\cigos\api_gastos_mensais>node index.js 
+api funcionando, aberta na url http://localhost:3000/teste
+node:events:498
+      throw er; // Unhandled 'error' event
+      ^
+
+Error: connect ECONNREFUSED 127.0.0.1:3306
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1157:16)
+    --------------------
+    at Protocol._enqueue (C:\Users\tiago\Documents\c贸digos\api_gastos_mensais\node_modules\mysql\lib\protocol\Protocol.js:144:48)
+    at Protocol.handshake (C:\Users\tiago\Documents\c贸digos\api_gastos_mensais\node_modules\mysql\lib\protocol\Protocol.js:51:23)
+    at Connection.connect (C:\Users\tiago\Documents\c贸digos\api_gastos_mensais\node_modules\mysql\lib\Connection.js:116:18)
+    at file:///C:/Users/tiago/Documents/c%C3%B3digos/api_gastos_mensais/banco.js:9:12
+    at ModuleJob.run (node:internal/modules/esm/module_job:195:25)
+    at async Promise.all (index 0)
+    at async ESMLoader.import (node:internal/modules/esm/loader:337:24)
+    at async loadESM (node:internal/process/esm_loader:88:5)
+    at async handleMainPromise (node:internal/modules/run_main:61:12)
+Emitted 'error' event on Connection instance at:
+    at Connection._handleProtocolError (C:\Users\tiago\Documents\c贸digos\api_gastos_mensais\node_modules\mysql\lib\Connection.js:423:8)
+    at Protocol.emit (node:events:520:28)
+    at Protocol._delegateError (C:\Users\tiago\Documents\c贸digos\api_gastos_mensais\node_modules\mysql\lib\protocol\Protocol.js:398:10)
+    at Handshake.<anonymous> (C:\Users\tiago\Documents\c贸digos\api_gastos_mensais\node_modules\mysql\lib\protocol\Protocol.js:153:12)
+    at Handshake.emit (node:events:520:28)
+    at Handshake.Sequence.end (C:\Users\tiago\Documents\c贸digos\api_gastos_mensais\node_modules\mysql\lib\protocol\sequences\Sequence.js:78:12)
+    at Protocol.handleNetworkError (C:\Users\tiago\Documents\c贸digos\api_gastos_mensais\node_modules\mysql\lib\protocol\Protocol.js:369:14)
+    at Connection._handleNetworkError (C:\Users\tiago\Documents\c贸digos\api_gastos_mensais\node_modules\mysql\lib\Connection.js:418:18)
+    at Socket.emit (node:events:520:28)
+    at emitErrorNT (node:internal/streams/destroy:157:8) {
+  errno: -4078,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 3306,
+  fatal: true
+}
+
+C:\Users\tiago\Documents\cigos\api_gastos_mensais>node index.js 
+api funcionando, aberta na url http://localhost:3000/teste
+node:events:498
+      throw er; // Unhandled 'error' event
+      ^
+
+Error: connect ECONNREFUSED 127.0.0.1:3306
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1157:16)
+    --------------------
+    at Protocol._enqueue (C:\Users\tiago\Documents\c贸digos\api_gastos_mensais\node_modules\mysql\lib\protocol\Protocol.js:144:48)
+    at Protocol.handshake (C:\Users\tiago\Documents\c贸digos\api_gastos_mensais\node_modules\mysql\lib\protocol\Protocol.js:51:23)
+    at Connection.connect (C:\Users\tiago\Documents\c贸digos\api_gastos_mensais\node_modules\mysql\lib\Connection.js:116:18)
+    at file:///C:/Users/tiago/Documents/c%C3%B3digos/api_gastos_mensais/banco.js:9:12
+    at ModuleJob.run (node:internal/modules/esm/module_job:195:25)
+    at async Promise.all (index 0)
+    at async ESMLoader.import (node:internal/modules/esm/loader:337:24)
+    at async loadESM (node:internal/process/esm_loader:88:5)
+    at async handleMainPromise (node:internal/modules/run_main:61:12)
+Emitted 'error' event on Connection instance at:
+    at Connection._handleProtocolError (C:\Users\tiago\Documents\c贸digos\api_gastos_mensais\node_modules\mysql\lib\Connection.js:423:8)
+    at Protocol.emit (node:events:520:28)
+    at Protocol._delegateError (C:\Users\tiago\Documents\c贸digos\api_gastos_mensais\node_modules\mysql\lib\protocol\Protocol.js:398:10)
+    at Handshake.<anonymous> (C:\Users\tiago\Documents\c贸digos\api_gastos_mensais\node_modules\mysql\lib\protocol\Protocol.js:153:12)
+    at Handshake.emit (node:events:520:28)
+    at Handshake.Sequence.end (C:\Users\tiago\Documents\c贸digos\api_gastos_mensais\node_modules\mysql\lib\protocol\sequences\Sequence.js:78:12)
+    at Protocol.handleNetworkError (C:\Users\tiago\Documents\c贸digos\api_gastos_mensais\node_modules\mysql\lib\protocol\Protocol.js:369:14)
+    at Connection._handleNetworkError (C:\Users\tiago\Documents\c贸digos\api_gastos_mensais\node_modules\mysql\lib\Connection.js:418:18)
+    at Socket.emit (node:events:520:28)
+    at emitErrorNT (node:internal/streams/destroy:157:8) {
+  errno: -4078,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 3306,
+  fatal: true
+}
+
+C:\Users\tiago\Documents\cigos\api_gastos_mensais>node index.js 
+api funcionando, aberta na url http://localhost:3000/teste
+^CDeseja finalizar o arquivo em lotes (S/N)? 
+C:\Users\tiago\Documents\cigos\api_gastos_mensais>node index.js 
+api funcionando, aberta na url http://localhost:3000/teste
+node:events:498
+      throw er; // Unhandled 'error' event
+      ^
+
+Error: connect ECONNREFUSED 127.0.0.1:3306
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1157:16)
+    --------------------
+    at Protocol._enqueue (C:\Users\tiago\Documents\c贸digos\api_gastos_mensais\node_modules\mysql\lib\protocol\Protocol.js:144:48)
+    at Protocol.handshake (C:\Users\tiago\Documents\c贸digos\api_gastos_mensais\node_modules\mysql\lib\protocol\Protocol.js:51:23)
+    at Connection.connect (C:\Users\tiago\Documents\c贸digos\api_gastos_mensais\node_modules\mysql\lib\Connection.js:116:18)
+    at file:///C:/Users/tiago/Documents/c%C3%B3digos/api_gastos_mensais/banco.js:10:12
+    at ModuleJob.run (node:internal/modules/esm/module_job:195:25)
+    at async Promise.all (index 0)
+    at async ESMLoader.import (node:internal/modules/esm/loader:337:24)
+    at async loadESM (node:internal/process/esm_loader:88:5)
+    at async handleMainPromise (node:internal/modules/run_main:61:12)
+Emitted 'error' event on Connection instance at:
+    at Connection._handleProtocolError (C:\Users\tiago\Documents\c贸digos\api_gastos_mensais\node_modules\mysql\lib\Connection.js:423:8)
+    at Protocol.emit (node:events:520:28)
+    at Protocol._delegateError (C:\Users\tiago\Documents\c贸digos\api_gastos_mensais\node_modules\mysql\lib\protocol\Protocol.js:398:10)
+    at Handshake.<anonymous> (C:\Users\tiago\Documents\c贸digos\api_gastos_mensais\node_modules\mysql\lib\protocol\Protocol.js:153:12)
+    at Handshake.emit (node:events:520:28)
+    at Handshake.Sequence.end (C:\Users\tiago\Documents\c贸digos\api_gastos_mensais\node_modules\mysql\lib\protocol\sequences\Sequence.js:78:12)
+    at Protocol.handleNetworkError (C:\Users\tiago\Documents\c贸digos\api_gastos_mensais\node_modules\mysql\lib\protocol\Protocol.js:369:14)
+    at Connection._handleNetworkError (C:\Users\tiago\Documents\c贸digos\api_gastos_mensais\node_modules\mysql\lib\Connection.js:418:18)
+    at Socket.emit (node:events:520:28)
+    at emitErrorNT (node:internal/streams/destroy:157:8) {
+  errno: -4078,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 3306,
+  fatal: true
+}
+
+C:\Users\tiago\Documents\cigos\api_gastos_mensais>node index.js 
+api funcionando, aberta na url http://localhost:3000/teste
+node:events:498
+      throw er; // Unhandled 'error' event
+      ^
+
+Error: connect ECONNREFUSED 127.0.0.1:3306
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1157:16)
+    --------------------
+    at Protocol._enqueue (C:\Users\tiago\Documents\c贸digos\api_gastos_mensais\node_modules\mysql\lib\protocol\Protocol.js:144:48)
+    at Protocol.handshake (C:\Users\tiago\Documents\c贸digos\api_gastos_mensais\node_modules\mysql\lib\protocol\Protocol.js:51:23)
+    at Connection.connect (C:\Users\tiago\Documents\c贸digos\api_gastos_mensais\node_modules\mysql\lib\Connection.js:116:18)
+    at file:///C:/Users/tiago/Documents/c%C3%B3digos/api_gastos_mensais/banco.js:10:12
+    at ModuleJob.run (node:internal/modules/esm/module_job:195:25)
+    at async Promise.all (index 0)
+    at async ESMLoader.import (node:internal/modules/esm/loader:337:24)
+    at async loadESM (node:internal/process/esm_loader:88:5)
+    at async handleMainPromise (node:internal/modules/run_main:61:12)
+Emitted 'error' event on Connection instance at:
+    at Connection._handleProtocolError (C:\Users\tiago\Documents\c贸digos\api_gastos_mensais\node_modules\mysql\lib\Connection.js:423:8)
+    at Protocol.emit (node:events:520:28)
+    at Protocol._delegateError (C:\Users\tiago\Documents\c贸digos\api_gastos_mensais\node_modules\mysql\lib\protocol\Protocol.js:398:10)
+    at Handshake.<anonymous> (C:\Users\tiago\Documents\c贸digos\api_gastos_mensais\node_modules\mysql\lib\protocol\Protocol.js:153:12)
+    at Handshake.emit (node:events:520:28)
+    at Handshake.Sequence.end (C:\Users\tiago\Documents\c贸digos\api_gastos_mensais\node_modules\mysql\lib\protocol\sequences\Sequence.js:78:12)
+    at Protocol.handleNetworkError (C:\Users\tiago\Documents\c贸digos\api_gastos_mensais\node_modules\mysql\lib\protocol\Protocol.js:369:14)
+    at Connection._handleNetworkError (C:\Users\tiago\Documents\c贸digos\api_gastos_mensais\node_modules\mysql\lib\Connection.js:418:18)
+    at Socket.emit (node:events:520:28)
+    at emitErrorNT (node:internal/streams/destroy:157:8) {
+  errno: -4078,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 3306,
+  fatal: true
+}
+
+C:\Users\tiago\Documents\cigos\api_gastos_mensais>node index.js 
+api funcionando, aberta na url http://localhost:3000/teste
+node:events:498
+      throw er; // Unhandled 'error' event
+      ^
+
+Error: connect ECONNREFUSED 127.0.0.1:3306
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1157:16)
+    --------------------
+    at Protocol._enqueue (C:\Users\tiago\Documents\c贸digos\api_gastos_mensais\node_modules\mysql\lib\protocol\Protocol.js:144:48)
+    at Protocol.handshake (C:\Users\tiago\Documents\c贸digos\api_gastos_mensais\node_modules\mysql\lib\protocol\Protocol.js:51:23)
+    at Connection.connect (C:\Users\tiago\Documents\c贸digos\api_gastos_mensais\node_modules\mysql\lib\Connection.js:116:18)
+    at file:///C:/Users/tiago/Documents/c%C3%B3digos/api_gastos_mensais/banco.js:10:12
+    at ModuleJob.run (node:internal/modules/esm/module_job:195:25)
+    at async Promise.all (index 0)
+    at async ESMLoader.import (node:internal/modules/esm/loader:337:24)
+    at async loadESM (node:internal/process/esm_loader:88:5)
+    at async handleMainPromise (node:internal/modules/run_main:61:12)
+Emitted 'error' event on Connection instance at:
+    at Connection._handleProtocolError (C:\Users\tiago\Documents\c贸digos\api_gastos_mensais\node_modules\mysql\lib\Connection.js:423:8)
+    at Protocol.emit (node:events:520:28)
+    at Protocol._delegateError (C:\Users\tiago\Documents\c贸digos\api_gastos_mensais\node_modules\mysql\lib\protocol\Protocol.js:398:10)
+    at Handshake.<anonymous> (C:\Users\tiago\Documents\c贸digos\api_gastos_mensais\node_modules\mysql\lib\protocol\Protocol.js:153:12)
+    at Handshake.emit (node:events:520:28)
+    at Handshake.Sequence.end (C:\Users\tiago\Documents\c贸digos\api_gastos_mensais\node_modules\mysql\lib\protocol\sequences\Sequence.js:78:12)
+    at Protocol.handleNetworkError (C:\Users\tiago\Documents\c贸digos\api_gastos_mensais\node_modules\mysql\lib\protocol\Protocol.js:369:14)
+    at Connection._handleNetworkError (C:\Users\tiago\Documents\c贸digos\api_gastos_mensais\node_modules\mysql\lib\Connection.js:418:18)
+    at Socket.emit (node:events:520:28)
+    at emitErrorNT (node:internal/streams/destroy:157:8) {
+  errno: -4078,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 3306,
+  fatal: true
+}
+
+C:\Users\tiago\Documents\cigos\api_gastos_mensais>node index.js 
+api funcionando, aberta na url http://localhost:3000/teste
+^CDeseja finalizar o arquivo em lotes (S/N)? 
+C:\Users\tiago\Documents\cigos\api_gastos_mensais>node index.js 
+api funcionando, aberta na url http://localhost:3000/teste
+node:events:498
+      throw er; // Unhandled 'error' event
+      ^
+
+Error: connect ECONNREFUSED 127.0.0.1:3306
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1157:16)
+    --------------------
+    at Protocol._enqueue (C:\Users\tiago\Documents\c贸digos\api_gastos_mensais\node_modules\mysql\lib\protocol\Protocol.js:144:48)
+    at Protocol.handshake (C:\Users\tiago\Documents\c贸digos\api_gastos_mensais\node_modules\mysql\lib\protocol\Protocol.js:51:23)
+    at Connection.connect (C:\Users\tiago\Documents\c贸digos\api_gastos_mensais\node_modules\mysql\lib\Connection.js:116:18)
+    at file:///C:/Users/tiago/Documents/c%C3%B3digos/api_gastos_mensais/banco.js:10:12
+    at ModuleJob.run (node:internal/modules/esm/module_job:195:25)
+    at async Promise.all (index 0)
+    at async ESMLoader.import (node:internal/modules/esm/loader:337:24)
+    at async loadESM (node:internal/process/esm_loader:88:5)
+    at async handleMainPromise (node:internal/modules/run_main:61:12)
+Emitted 'error' event on Connection instance at:
+    at Connection._handleProtocolError (C:\Users\tiago\Documents\c贸digos\api_gastos_mensais\node_modules\mysql\lib\Connection.js:423:8)
+    at Protocol.emit (node:events:520:28)
+    at Protocol._delegateError (C:\Users\tiago\Documents\c贸digos\api_gastos_mensais\node_modules\mysql\lib\protocol\Protocol.js:398:10)
+    at Handshake.<anonymous> (C:\Users\tiago\Documents\c贸digos\api_gastos_mensais\node_modules\mysql\lib\protocol\Protocol.js:153:12)
+    at Handshake.emit (node:events:520:28)
+    at Handshake.Sequence.end (C:\Users\tiago\Documents\c贸digos\api_gastos_mensais\node_modules\mysql\lib\protocol\sequences\Sequence.js:78:12)
+    at Protocol.handleNetworkError (C:\Users\tiago\Documents\c贸digos\api_gastos_mensais\node_modules\mysql\lib\protocol\Protocol.js:369:14)
+    at Connection._handleNetworkError (C:\Users\tiago\Documents\c贸digos\api_gastos_mensais\node_modules\mysql\lib\Connection.js:418:18)
+    at Socket.emit (node:events:520:28)
+    at emitErrorNT (node:internal/streams/destroy:157:8) {
+  errno: -4078,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 3306,
+  fatal: true
+}
+
+C:\Users\tiago\Documents\cigos\api_gastos_mensais>node index.js 
+api funcionando, aberta na url http://localhost:3000/teste
+node:events:498
+      throw er; // Unhandled 'error' event
+      ^
+
+Error: connect ECONNREFUSED 127.0.0.1:3306
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1157:16)
+    --------------------
+    at Protocol._enqueue (C:\Users\tiago\Documents\c贸digos\api_gastos_mensais\node_modules\mysql\lib\protocol\Protocol.js:144:48)
+    at Protocol.handshake (C:\Users\tiago\Documents\c贸digos\api_gastos_mensais\node_modules\mysql\lib\protocol\Protocol.js:51:23)
+    at Connection.connect (C:\Users\tiago\Documents\c贸digos\api_gastos_mensais\node_modules\mysql\lib\Connection.js:116:18)
+    at file:///C:/Users/tiago/Documents/c%C3%B3digos/api_gastos_mensais/banco.js:10:12
+    at ModuleJob.run (node:internal/modules/esm/module_job:195:25)
+    at async Promise.all (index 0)
+    at async ESMLoader.import (node:internal/modules/esm/loader:337:24)
+    at async loadESM (node:internal/process/esm_loader:88:5)
+    at async handleMainPromise (node:internal/modules/run_main:61:12)
+Emitted 'error' event on Connection instance at:
+    at Connection._handleProtocolError (C:\Users\tiago\Documents\c贸digos\api_gastos_mensais\node_modules\mysql\lib\Connection.js:423:8)
+    at Protocol.emit (node:events:520:28)
+    at Protocol._delegateError (C:\Users\tiago\Documents\c贸digos\api_gastos_mensais\node_modules\mysql\lib\protocol\Protocol.js:398:10)
+    at Handshake.<anonymous> (C:\Users\tiago\Documents\c贸digos\api_gastos_mensais\node_modules\mysql\lib\protocol\Protocol.js:153:12)
+    at Handshake.emit (node:events:520:28)
+    at Handshake.Sequence.end (C:\Users\tiago\Documents\c贸digos\api_gastos_mensais\node_modules\mysql\lib\protocol\sequences\Sequence.js:78:12)
+    at Protocol.handleNetworkError (C:\Users\tiago\Documents\c贸digos\api_gastos_mensais\node_modules\mysql\lib\protocol\Protocol.js:369:14)
+    at Connection._handleNetworkError (C:\Users\tiago\Documents\c贸digos\api_gastos_mensais\node_modules\mysql\lib\Connection.js:418:18)
+    at Socket.emit (node:events:520:28)
+    at emitErrorNT (node:internal/streams/destroy:157:8) {
+  errno: -4078,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 3306,
+  fatal: true
+}
+
+C:\Users\tiago\Documents\cigos\api_gastos_mensais>node index.js 
+api funcionando, aberta na url http://localhost:3000/teste
